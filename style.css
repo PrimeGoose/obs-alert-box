@@ -1,0 +1,101 @@
+.alert-box-follower {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    max-width: fit-content;
+    min-width: 200px;
+    height: 4rem;
+    border-bottom-right-radius: 0.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: monospace;
+    line-height: 1rem;
+    box-shadow: 1px 1px 12px 1px rgb(0 0 0 / 10%);
+    justify-content: center;
+}
+
+.follower-text {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.warning {
+    stroke: white;
+    stroke-width: 1rem;
+    height: 2rem;
+    min-width: 2rem;
+    margin: 1rem;
+    transform: scaleX(1) scaleY(1.3);
+}
+
+.fia {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.fia-logo {
+    width: 2.5rem;
+    padding: 1rem;
+}
+
+.divider-pipe {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1px;
+    min-width: 1px;
+    border-radius: 45%;
+    z-index: 1;
+    height: 45%;
+    align-self: center;
+}
+
+.penalty-type {
+    font-family: "Formula1 Display Regular";
+    filter: blur(1px);
+    left: -3px;
+    position: relative;
+    background-color: black;
+    line-height: 1px;
+    color: red;
+    height: 100%;
+    width: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+.penalty-type-text {
+    font-size: 1.2rem;
+    margin: 0.1rem;
+    padding-top: 18px;
+    text-align: left;
+}
+.penalty-receiver {
+    min-width: 300px;
+    font-family: "Formula1 Display Regular";
+    font-weight: 100;
+    text-shadow: 0px 0px 1px black;
+}
+.penalty-given {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: -11px;
+    padding-top: 18px;
+}
+
+.penalty-amount {
+    font-weight: 700;
+    font-family: "Formula1 Display";
+    font-size: 2.3rem;
+}
+
+.penalty-text {
+    font-weight: 100;
+}
